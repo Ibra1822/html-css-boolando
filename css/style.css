@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+  height: 70px;
+  width: 100%;
+  background-color: #FE6901;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #FFFFFC;
+  margin: 15px
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+ nav .logo{
+  height: 35px;
+}
+
+ .social i{
+  color: #FFFFFC;;
+ }
+ 
+ i:hover{
+  border-bottom:1px solid #FFFEFF;
+  padding-bottom:2px;
+  
+ }
+
+ /* FINE HEADER  */
+
+
+main{
+  padding-top: 80px;
+  width: 80%;
+  margin: 20px auto;
+  
+}
+
+main .esp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.esp .modelli{
+  width: calc(100% / 3 - 20px);
+  min-width: 300px;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+.esp .modelli .modello{
+  width: 100%;
+  position: relative;
+  
+}
+
+.modelli .cuore{
+  padding: 5px 15px;
+  background-color: #FFFEFF;
+  position: absolute;
+  font-size:25px;
+  top: 5px;
+  right: 0;
+}
+
+.modelli .sconto{
+  padding: 5px 8px;
+  position: absolute;
+  bottom: 110px;
+  color: #FFFFFF;
+  background-color: #FE0100;
+}
+
+.modelli .sostenibilita{
+  position: absolute;
+  padding: 5px 8px;
+  color: #FFFFFF;
+background-color: #008001;
+bottom: 110px;
+left: 65px;
+}
+
+.modelli .marca{
+  font-size: 13px;
+  color: #9EA5B2;
+}
+
+.modelli .nome{
+  font-size: 18px;
+}
+
+.modelli .prezzo{
+  font-size: 13px;
+  color: #FF0031;
+}
+
+.modelli .meno{
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+ #solo{
+  position: absolute;
+  left: 10px;
+}
+
+/* primo ragazzo  */
+.first{
+  display: none;
+  width: 100%;
+  top: 0;
+  position: absolute;
+
+}
+.modelli:hover .first{
+  display: block;
+}
+
+/* primo persona  */
+
+
+.seconda{
+  display: none;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.modelli:hover .seconda{
+  display: block;
+}
+
+/* secona persona  */
+
+.terza{
+  display: none;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.modelli:hover .terza{
+  display: block;
+}
+
+/* terza persona  */
+
+.quarta{
+  display: none;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.modelli:hover .quarta{
+  display: block;
+}
+
+/* quarta persona  */
+
+.quinta{
+  display: none;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.modelli:hover .quinta{
+  display: block;
+}
+
+/* fine quinta persona  */
+
+.sesta{
+  display: none;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.modelli:hover .sesta{
+  display: block;
+}
+
+
+
+footer{
+  height: 120px;
+  width: 100%;
+  background-color: #1A1A1A;
+}
+
